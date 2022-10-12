@@ -6,18 +6,30 @@
   </div>
 
   <div class="entry-scrollarea">
-    <h2 v-for="item in 100" :key="item">Entry</h2>
+    <entry v-for="item in 100" :key="item"/>
   </div>
+
+ 
 </template>
 
 <script>
-export default {};
+import { defineAsyncComponent } from 'vue';
+
+export default {
+
+components:{
+
+  Entry: defineAsyncComponent(() => import('./Entry.vue'))
+
+}
+
+};
 </script>
 
 <style lang="scss" scoped>
 .entry-list-container {
   border-right: 1px solid #2c3e50;
-  height: calc( 100vh - 500px);
+  height: calc( 100vh - 900px);
 }
 
 .entry-scrollarea {
