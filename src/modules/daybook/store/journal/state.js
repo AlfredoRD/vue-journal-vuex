@@ -21,7 +21,8 @@ export default () => ({
         id: new Date().getTime() + 2000,
         date: new Date().toDateString(),
         Text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
-        picture: null
+        picture: null,
+        pictures: null
 
     },
 
