@@ -22,13 +22,21 @@ export default () => ({
         date: new Date().toDateString(),
         Text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         picture: null,
-        pictures: null
+        
 
     },
 
     {
       
         id: new Date().getTime() + 3000,
+        date: new Date().toDateString(),
+        Text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+        picture: null
+
+    },
+    {
+      
+        id: new Date().getTime() + 4000,
         date: new Date().toDateString(),
         Text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         picture: null
