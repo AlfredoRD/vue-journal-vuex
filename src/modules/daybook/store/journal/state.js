@@ -34,14 +34,7 @@ export default () => ({
         picture: null
 
     },
-    {
-      
-        id: new Date().getTime() + 4000,
-        date: new Date().toDateString(),
-        Text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
-        picture: null
-
-    }
+    
 ]
 
 })
