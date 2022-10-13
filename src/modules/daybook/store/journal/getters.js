@@ -13,16 +13,8 @@ export const getEntriesByTerm =
     );
   };
 
-export const getEntryById = ({state}) => (id = '') => {
+export const getEntriesById = async (/*{state}*/) => {
 
-   console.log(state.entries)
 
-const entry = state.entries.find( entry => entry.id === id)
-
-console.log(entry)
-
-if ( !entry) return
-
-return { ...entry }
-
+    
 };
