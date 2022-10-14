@@ -18,7 +18,7 @@ export default {
       name: "entry",
       component: () =>
         import(
-          /* webpackChunkName: "daybook-EntryView" */ "@/modules/daybook/views/EntryView.vue"
+          /* webpackChunkName: "daybook-no-entry" */ "@/modules/daybook/views/EntryView.vue"
         ),
       props: ( route ) => {
         return {

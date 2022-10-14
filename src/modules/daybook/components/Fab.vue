@@ -1,7 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <button btn btn-primary>
-    <i class="fa fa-2x fa-plus"
+  <button class="btn btn-primary"
+   @click="$emit('on:click')">
+    <i class="fa fa-2x "
     :class="icon" 
     > </i>
   </button>
